@@ -13,4 +13,4 @@ basic.showString('Area = 3 x 5' + (3 * 5).toString())
 basic.clearScreen()
 basic.pause(1000)
 
-basic.showString(('Perimeter = 2(5+3)' + (2*(3 + 5)).toString()))
+basic.showString(('Perimeter = 2 x (5+3)' + (2*(3 + 5)).toString()))
