@@ -8,4 +8,4 @@
 basic.clearScreen()
 basic.pause(1000)
 
-basic.showString((5 + 5 ** 5).toString())
+basic.showString('5 + 5 ^ 5 = ' + (5 + 5 ** 5).toString())
