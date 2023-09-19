@@ -2,7 +2,10 @@
  *
  * Created by: Angelo Yalung
  * Created on: Sep 2023
- * This program writes "Hello, World!" on the MicroBit
+ * This program does math.
 */
 
-basic.showString('Hello, World!')
+basic.clearScreen()
+basic.pause(1000)
+
+basic.showString((5 + 5 ** 5).toString())
