@@ -8,11 +8,12 @@ from microbit import *
 
 
 display.scroll("The Area for a Rectangle that is 3x5 is" + str(3 * 5))
-display.show(Image.HAPPY)
+display.scroll("cm^2")
 sleep(0.5)
 display.clear()
 
-display.scroll("The perimeter of a Rectangle that is 3x5 is" + str(2 * (8 + 5)))
+display.scroll("The perimeter of a Rectangle that is 3x5 is" + str(2 * (3 + 5)))
+display.scroll("cm")
 display.show(Image.HAPPY)
 sleep(0.5)
 display.clear()
